@@ -5,7 +5,7 @@ const Products = () => {
   const products = [
     {
       name: "NIBP Modules",
-      image: "https://lh3.googleusercontent.com/x3_u7_gBhahXdjWTjg_oTfYAjy8aFDwINPQ1FtOcRfXs-4whW7ImwD6RgEmvHHHbgoVK=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOxfX34L5RlhtjzmCu19LqAAgjUPr0NC2rl4Zue=w1080-h608-p-no-v0",
       description: "Advanced non-invasive blood pressure monitoring modules",
       categories: ["Modules", "Monitoring"]
     },
@@ -17,13 +17,13 @@ const Products = () => {
     },
     {
       name: "SpO2 Sensors",
-      image: "https://lh3.googleusercontent.com/HUuWLuXgFYbQVqZAV90mr4hGp71YhY4j0XBhqyYASg6kK9EsbQ1kzdE4xUh1OwhjClU-Sg=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipO2_L5nrsCswRfW9Jw20TZjD93RuVxTxZmwu8hv=w1080-h608-p-no-v0",
       description: "Reliable oxygen saturation sensors for accurate readings",
       categories: ["Sensors", "Monitoring"]
     },
     {
       name: "Service & Support",
-      image: "https://lh3.googleusercontent.com/2g8QCzR_5oBhZqQvma9F6-9v9sUCBZ5geqdJMq9-IXZlbEuxBDKWK09J9PC7dNI-O4RL=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNksJ0-QR3tILMUJSj_ExN2LfUZTqhbxtS8-LBJ=w1080-h608-p-no-v0",
       description: "Expert technical support and maintenance services",
       categories: ["Services", "Support"]
     }

@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
@@ -42,7 +41,7 @@ const ProductsPage = () => {
     {
       name: "VitalCare 3000",
       category: "Patient Monitoring",
-      image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMTJ4VqCh-QmZC5xIqMxioWbCG4smDXQhHsLu_o=w1080-h608-p-no-v0",
       description: "Advanced patient monitor with integrated vital signs monitoring capabilities including ECG, SpO2, NIBP, temperature and respiration.",
       features: [
         "12.1\" color TFT display",
@@ -55,7 +54,7 @@ const ProductsPage = () => {
     {
       name: "MediVent Plus",
       category: "Life Support",
-      image: "https://images.unsplash.com/photo-1584744982491-665216d95f8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      image: "https://lh3.googleusercontent.com/p/AF1QipO2_L5nrsCswRfW9Jw20TZjD93RuVxTxZmwu8hv=w1080-h608-p-no-v0",
       description: "High-performance ventilator for critical care settings with advanced ventilation modes and comprehensive monitoring.",
       features: [
         "Invasive and non-invasive modes",
@@ -68,7 +67,7 @@ const ProductsPage = () => {
     {
       name: "DiagnoECG 12",
       category: "Diagnostic Equipment",
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOxfX34L5RlhtjzmCu19LqAAgjUPr0NC2rl4Zue=w1080-h608-p-no-v0",
       description: "12-lead ECG system with advanced analysis algorithms for accurate cardiac diagnosis and reporting.",
       features: [
         "High-resolution recording",
@@ -81,7 +80,7 @@ const ProductsPage = () => {
     {
       name: "InfusionPro 4000",
       category: "Life Support",
-      image: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1240&q=80",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNksJ0-QR3tILMUJSj_ExN2LfUZTqhbxtS8-LBJ=w1080-h608-p-no-v0",
       description: "Precision infusion pump for accurate delivery of medications, fluids, and nutrients in various clinical settings.",
       features: [
         "Programmable flow rates",
@@ -94,7 +93,7 @@ const ProductsPage = () => {
     {
       name: "UltraScan X5",
       category: "Imaging Systems",
-      image: "https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      image: "https://lh3.googleusercontent.com/p/AF1QipP5M2OCGUb1T-hJnGR2VgNVg5jm13UxaLn-t7gi=w1080-h608-p-no-v0",
       description: "Advanced ultrasound system with superior imaging performance for a wide range of clinical applications.",
       features: [
         "High-definition imaging",
@@ -107,7 +106,7 @@ const ProductsPage = () => {
     {
       name: "SurgicalLight LED6",
       category: "Surgical Equipment",
-      image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNwfOeviEdGEFp5-MUnth_kN-3MyzHDaUQgagw6=w1080-h608-p-no-v0",
       description: "High-performance LED surgical light system for optimal illumination during surgical procedures.",
       features: [
         "Shadow-free illumination",
@@ -297,7 +296,7 @@ const ProductsPage = () => {
               
               <div className="md:w-1/2">
                 <img 
-                  src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                  src="https://lh3.googleusercontent.com/p/AF1QipNksJ0-QR3tILMUJSj_ExN2LfUZTqhbxtS8-LBJ=w1080-h608-p-no-v0" 
                   alt="Product Support" 
                   className="rounded-lg shadow-lg"
                 />
