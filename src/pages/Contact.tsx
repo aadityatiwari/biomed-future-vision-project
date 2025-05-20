@@ -19,7 +19,7 @@ const Contact = () => {
               Get in <span className="text-medical-600">Touch</span> With Us
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Have questions about our products or services? Our team is ready to assist you.
+              Have questions about our products or services? Bubu's team is ready to assist you.
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Contact = () => {
                 <Phone size={28} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-              <p className="text-gray-600 mb-4">Our team is available to assist you.</p>
+              <p className="text-gray-600 mb-4">Bubu's team is available to assist you. </p>
               <a href="tel:9643399281" className="text-medical-600 font-semibold hover:text-medical-700 transition-colors">
                 9643399281
               </a>
@@ -49,7 +49,7 @@ const Contact = () => {
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-gray-600 mb-4">Send us an email with your inquiries.</p>
               <a href="mailto:bgmbiomedical@gmail.com" className="text-medical-600 font-semibold hover:text-medical-700 transition-colors">
-                bgmbiomedical@gmail.com
+                bubulovesdudu@gmail.com
               </a>
             </div>
             
