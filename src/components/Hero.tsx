@@ -11,15 +11,14 @@ const Hero = () => {
           <div className="lg:w-1/2 lg:pr-10 mb-10 lg:mb-0">
             <div className="slide-up">
               <span className="inline-block py-1 px-3 rounded-full bg-medical-100 text-medical-600 text-sm font-medium mb-4">
-                Leading Medical Equipment Provider
+                Medical Equipment Specialists
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                <span className="block">Advanced Healthcare</span>
-                <span className="text-medical-600">Equipment Solutions</span>
+                <span className="block">BGM Biomedical</span>
+                <span className="text-medical-600">Services Pvt. Ltd.</span>
               </h1>
               <p className="text-lg text-gray-600 mb-8 max-w-lg">
-                BGM Biomedical provides state-of-the-art medical equipment and comprehensive 
-                services to healthcare facilities across India, enhancing patient care with reliable technology.
+                Providing high-quality medical equipment, modules, and technical services to healthcare facilities across India. Expert OEM representation and support.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
@@ -37,8 +36,8 @@ const Hero = () => {
           <div className="lg:w-1/2 relative">
             <div className="relative rounded-lg overflow-hidden shadow-2xl animate-fade-in">
               <img 
-                src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
-                alt="Modern medical equipment" 
+                src="https://lh3.googleusercontent.com/p/AF1QipMTJ4VqCh-QmZC5xIqMxioWbCG4smDXQhHsLu_o=w1080-h608-p-no-v0" 
+                alt="BGM Biomedical Services" 
                 className="w-full h-auto rounded-lg"
               />
               
@@ -53,8 +52,8 @@ const Hero = () => {
                   </svg>
                 </div>
                 <div className="ml-3">
-                  <p className="text-sm font-medium">ISO Certified</p>
-                  <p className="text-xs text-gray-500">Quality Assured Products</p>
+                  <p className="text-sm font-medium">Quality Assured</p>
+                  <p className="text-xs text-gray-500">Industry Standard Products</p>
                 </div>
               </div>
             </div>
@@ -67,8 +66,8 @@ const Hero = () => {
                   </svg>
                 </div>
                 <div className="ml-3">
-                  <p className="text-sm font-medium">24/7 Support</p>
-                  <p className="text-xs text-gray-500">Expert Technical Assistance</p>
+                  <p className="text-sm font-medium">Expert Support</p>
+                  <p className="text-xs text-gray-500">Technical Assistance</p>
                 </div>
               </div>
             </div>

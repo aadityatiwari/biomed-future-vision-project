@@ -4,28 +4,28 @@ import { Button } from "@/components/ui/button";
 const Products = () => {
   const products = [
     {
+      name: "NIBP Modules",
+      image: "https://lh3.googleusercontent.com/x3_u7_gBhahXdjWTjg_oTfYAjy8aFDwINPQ1FtOcRfXs-4whW7ImwD6RgEmvHHHbgoVK=w1080-h608-p-no-v0",
+      description: "Advanced non-invasive blood pressure monitoring modules",
+      categories: ["Modules", "Monitoring"]
+    },
+    {
       name: "Patient Monitors",
-      image: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
-      description: "Advanced vital signs monitoring with high-resolution displays",
-      categories: ["ICU", "CCU", "General Ward"]
+      image: "https://lh3.googleusercontent.com/p/AF1QipMTJ4VqCh-QmZC5xIqMxioWbCG4smDXQhHsLu_o=w1080-h608-p-no-v0",
+      description: "High-quality patient monitoring systems for critical care",
+      categories: ["Monitoring", "Critical Care"]
     },
     {
-      name: "Ventilators",
-      image: "https://images.unsplash.com/photo-1584744982491-665216d95f8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      description: "Life-supporting ventilation systems for critical care patients",
-      categories: ["ICU", "Emergency"]
+      name: "SpO2 Sensors",
+      image: "https://lh3.googleusercontent.com/HUuWLuXgFYbQVqZAV90mr4hGp71YhY4j0XBhqyYASg6kK9EsbQ1kzdE4xUh1OwhjClU-Sg=w1080-h608-p-no-v0",
+      description: "Reliable oxygen saturation sensors for accurate readings",
+      categories: ["Sensors", "Monitoring"]
     },
     {
-      name: "Infusion Pumps",
-      image: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1240&q=80",
-      description: "Precision fluid delivery systems for medication administration",
-      categories: ["ICU", "OT", "General Ward"]
-    },
-    {
-      name: "ECG Machines",
-      image: "https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      description: "Comprehensive cardiac monitoring and diagnostic systems",
-      categories: ["Cardiology", "ICU", "Emergency"]
+      name: "Service & Support",
+      image: "https://lh3.googleusercontent.com/2g8QCzR_5oBhZqQvma9F6-9v9sUCBZ5geqdJMq9-IXZlbEuxBDKWK09J9PC7dNI-O4RL=w1080-h608-p-no-v0",
+      description: "Expert technical support and maintenance services",
+      categories: ["Services", "Support"]
     }
   ];
 
@@ -33,10 +33,10 @@ const Products = () => {
     <section className="section bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <span className="block text-medical-600 text-sm font-semibold uppercase tracking-wider mb-2">OUR PORTFOLIO</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Medical Equipment</h2>
+          <span className="block text-medical-600 text-sm font-semibold uppercase tracking-wider mb-2">OUR PRODUCTS</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Quality Medical Equipment</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We offer a wide range of high-quality medical equipment from industry-leading manufacturers.
+            We offer a wide range of high-quality medical equipment and modules from industry-leading manufacturers.
           </p>
         </div>
 

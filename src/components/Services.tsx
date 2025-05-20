@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 const Services = () => {
   const services = [
     {
-      name: "Equipment Installation",
-      description: "Professional setup of medical equipment with thorough training for staff",
+      name: "OEM Representative",
+      description: "Representing multiple Original Equipment Manufacturers for quality medical products",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
@@ -13,8 +13,8 @@ const Services = () => {
       ),
     },
     {
-      name: "Maintenance & Repair",
-      description: "Regular service and quick repairs to minimize equipment downtime",
+      name: "Service & Support",
+      description: "Technical assistance and maintenance for all medical equipment we provide",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
@@ -22,8 +22,8 @@ const Services = () => {
       ),
     },
     {
-      name: "Calibration Services",
-      description: "Precise calibration to ensure accurate readings and optimal functionality",
+      name: "Modules & Sensors",
+      description: "High-quality medical modules and sensors for various medical applications",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
@@ -32,7 +32,7 @@ const Services = () => {
     },
     {
       name: "Technical Consultation",
-      description: "Expert guidance on equipment selection and facility planning",
+      description: "Expert guidance on medical equipment selection and integration",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -45,10 +45,10 @@ const Services = () => {
     <section className="section bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <span className="block text-medical-600 text-sm font-semibold uppercase tracking-wider mb-2">OUR OFFERINGS</span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Comprehensive Medical Services</h2>
+          <span className="block text-medical-600 text-sm font-semibold uppercase tracking-wider mb-2">OUR SERVICES</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Medical Equipment Solutions</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We provide a complete range of services to support healthcare facilities in delivering exceptional patient care.
+            We provide comprehensive services to support healthcare facilities with their medical equipment needs.
           </p>
         </div>
 

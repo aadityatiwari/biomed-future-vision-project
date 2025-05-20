@@ -9,9 +9,9 @@ const CTA = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <span className="text-medical-200 text-sm font-semibold uppercase tracking-wider mb-2 block">Get in Touch</span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Enhance Your Healthcare Facility?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Need Medical Equipment or Services?</h2>
             <p className="text-medical-100 text-lg mb-8">
-              Connect with our team of experts to discuss your medical equipment needs. We're here to provide personalized solutions for your healthcare facility.
+              Contact our team to discuss your medical equipment needs. We're here to provide solutions for your healthcare facility.
             </p>
 
             <div className="space-y-4">
@@ -19,7 +19,7 @@ const CTA = () => {
                 <Phone className="mr-4 h-5 w-5 text-medical-200" />
                 <div>
                   <p className="font-medium">Call Us</p>
-                  <p className="text-medical-100">+91 98765 43210</p>
+                  <p className="text-medical-100">+91 9717692952</p>
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ const CTA = () => {
                 <MapPin className="mr-4 h-5 w-5 text-medical-200" />
                 <div>
                   <p className="font-medium">Visit Us</p>
-                  <p className="text-medical-100">123 Medical Avenue, Bangalore, Karnataka, India</p>
+                  <p className="text-medical-100">2nd Floor, Office Complex, Green Valley Plaza, Jagriti Enclave, Delhi</p>
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ const CTA = () => {
                   <input
                     type="text"
                     id="name"
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
                   />
                 </div>
@@ -59,7 +59,7 @@ const CTA = () => {
                   <input
                     type="text"
                     id="organization"
-                    placeholder="Hospital Name"
+                    placeholder="Hospital/Clinic Name"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
                   />
                 </div>
@@ -71,7 +71,7 @@ const CTA = () => {
                   <input
                     type="email"
                     id="email"
-                    placeholder="john@example.com"
+                    placeholder="Your Email"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
                   />
                 </div>
@@ -80,7 +80,7 @@ const CTA = () => {
                   <input
                     type="tel"
                     id="phone"
-                    placeholder="+91 98765 43210"
+                    placeholder="Your Phone"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
                   />
                 </div>
