@@ -62,9 +62,9 @@ const Contact = () => {
               <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
               <p className="text-gray-600 mb-4">Our office location.</p>
               <address className="not-italic text-medical-600 font-semibold hover:text-medical-700 transition-colors">
-                2nd Floor, Office Complex<br />
-                Green Valley Plaza, Jagriti Enclave<br />
-                Delhi
+                Plot No. 15, 2nd Floor, Office Complex<br />
+                Green Valley Plaza, Pocket B, Jagriti Enclave<br />
+                Delhi, 110091
               </address>
             </div>
           </div>
@@ -163,7 +163,7 @@ const Contact = () => {
                   </p>
                   <div className="flex items-center text-medical-600">
                     <MapPin size={18} className="mr-2" />
-                    <span>2nd Floor, Office Complex, Green Valley Plaza, Jagriti Enclave, Delhi</span>
+                    <span>Plot No. 15, 2nd Floor, Office Complex, Green Valley Plaza, Pocket B, Jagriti Enclave, Delhi, 110091</span>
                   </div>
                 </div>
               </div>

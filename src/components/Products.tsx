@@ -5,25 +5,25 @@ const Products = () => {
   const products = [
     {
       name: "NIBP Modules",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOxfX34L5RlhtjzmCu19LqAAgjUPr0NC2rl4Zue=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOZ6SHhbS85Pk_nZ2c6JmIs-MnbSM7mNjot4goF=w768-h768-n-o-v1",
       description: "Advanced non-invasive blood pressure monitoring modules",
       categories: ["Modules", "Monitoring"]
     },
     {
       name: "Patient Monitors",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMTJ4VqCh-QmZC5xIqMxioWbCG4smDXQhHsLu_o=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMVhF8lYZctRnMLzXkV8HdxboB-NGs2R_UAvmFK=w768-h768-n-o-v1",
       description: "High-quality patient monitoring systems for critical care",
       categories: ["Monitoring", "Critical Care"]
     },
     {
       name: "SpO2 Sensors",
-      image: "https://lh3.googleusercontent.com/p/AF1QipO2_L5nrsCswRfW9Jw20TZjD93RuVxTxZmwu8hv=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNpxhUmmbKKB5QR-A-f_nBD0lhjlhcWKXJeJFVS=w768-h768-n-o-v1",
       description: "Reliable oxygen saturation sensors for accurate readings",
       categories: ["Sensors", "Monitoring"]
     },
     {
       name: "Service & Support",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNksJ0-QR3tILMUJSj_ExN2LfUZTqhbxtS8-LBJ=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipP0MLJscTFSizL5h7qEUXFwJohq8Pu9cBXzpaKa=w768-h768-n-o-v1",
       description: "Expert technical support and maintenance services",
       categories: ["Services", "Support"]
     }

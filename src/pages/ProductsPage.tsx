@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
@@ -16,9 +17,9 @@ const ProductsPage = () => {
       icon: "🔬"
     },
     {
-      name: "Surgical Equipment",
-      slug: "surgical",
-      icon: "🔪"
+      name: "Modules",
+      slug: "modules",
+      icon: "🔌"
     },
     {
       name: "Life Support",
@@ -26,14 +27,14 @@ const ProductsPage = () => {
       icon: "💨"
     },
     {
-      name: "Imaging Systems",
-      slug: "imaging",
-      icon: "📷"
+      name: "Sensors",
+      slug: "sensors",
+      icon: "📡"
     },
     {
-      name: "Laboratory Equipment",
-      slug: "laboratory",
-      icon: "🧪"
+      name: "Services",
+      slug: "services",
+      icon: "🔧"
     }
   ];
   
@@ -41,7 +42,7 @@ const ProductsPage = () => {
     {
       name: "VitalCare 3000",
       category: "Patient Monitoring",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMTJ4VqCh-QmZC5xIqMxioWbCG4smDXQhHsLu_o=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipMVhF8lYZctRnMLzXkV8HdxboB-NGs2R_UAvmFK=w768-h768-n-o-v1",
       description: "Advanced patient monitor with integrated vital signs monitoring capabilities including ECG, SpO2, NIBP, temperature and respiration.",
       features: [
         "12.1\" color TFT display",
@@ -54,7 +55,7 @@ const ProductsPage = () => {
     {
       name: "MediVent Plus",
       category: "Life Support",
-      image: "https://lh3.googleusercontent.com/p/AF1QipO2_L5nrsCswRfW9Jw20TZjD93RuVxTxZmwu8hv=w1080-h608-p-no-v0",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNpxhUmmbKKB5QR-A-f_nBD0lhjlhcWKXJeJFVS=w768-h768-n-o-v1",
       description: "High-performance ventilator for critical care settings with advanced ventilation modes and comprehensive monitoring.",
       features: [
         "Invasive and non-invasive modes",
@@ -65,55 +66,55 @@ const ProductsPage = () => {
       ]
     },
     {
-      name: "DiagnoECG 12",
-      category: "Diagnostic Equipment",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOxfX34L5RlhtjzmCu19LqAAgjUPr0NC2rl4Zue=w1080-h608-p-no-v0",
-      description: "12-lead ECG system with advanced analysis algorithms for accurate cardiac diagnosis and reporting.",
+      name: "NIBP Modules",
+      category: "Modules",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOZ6SHhbS85Pk_nZ2c6JmIs-MnbSM7mNjot4goF=w768-h768-n-o-v1",
+      description: "Advanced non-invasive blood pressure monitoring modules for integration with patient monitoring systems.",
       features: [
-        "High-resolution recording",
-        "Automatic interpretation",
-        "Wireless connectivity",
-        "Internal memory for 200 ECGs",
-        "Compatible with EMR systems"
+        "High accuracy measurements",
+        "Adult and pediatric modes",
+        "Low power consumption",
+        "Compact design",
+        "Easy integration"
       ]
     },
     {
-      name: "InfusionPro 4000",
-      category: "Life Support",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNksJ0-QR3tILMUJSj_ExN2LfUZTqhbxtS8-LBJ=w1080-h608-p-no-v0",
-      description: "Precision infusion pump for accurate delivery of medications, fluids, and nutrients in various clinical settings.",
+      name: "Service & Support",
+      category: "Services",
+      image: "https://lh3.googleusercontent.com/p/AF1QipP0MLJscTFSizL5h7qEUXFwJohq8Pu9cBXzpaKa=w768-h768-n-o-v1",
+      description: "Expert technical support and maintenance services for all medical equipment and modules.",
       features: [
-        "Programmable flow rates",
-        "Anti-free-flow mechanism",
-        "Drug library capability",
-        "Multiple operation modes",
-        "Occlusion and air detection alarms"
+        "On-site service",
+        "Preventive maintenance",
+        "Calibration services",
+        "Parts replacement",
+        "Technical consulting"
       ]
     },
     {
-      name: "UltraScan X5",
-      category: "Imaging Systems",
-      image: "https://lh3.googleusercontent.com/p/AF1QipP5M2OCGUb1T-hJnGR2VgNVg5jm13UxaLn-t7gi=w1080-h608-p-no-v0",
-      description: "Advanced ultrasound system with superior imaging performance for a wide range of clinical applications.",
+      name: "SpO2 Sensors",
+      category: "Sensors",
+      image: "https://lh3.googleusercontent.com/p/AF1QipNpxhUmmbKKB5QR-A-f_nBD0lhjlhcWKXJeJFVS=w768-h768-n-o-v1",
+      description: "High-quality oxygen saturation sensors compatible with major monitoring systems.",
       features: [
-        "High-definition imaging",
-        "Color Doppler",
-        "3D/4D imaging capability",
-        "Multiple probe options",
-        "Image storage and transfer"
+        "High accuracy readings",
+        "Durable construction",
+        "Patient comfort design",
+        "Multi-monitor compatibility",
+        "Adult and pediatric sizes"
       ]
     },
     {
-      name: "SurgicalLight LED6",
-      category: "Surgical Equipment",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNwfOeviEdGEFp5-MUnth_kN-3MyzHDaUQgagw6=w1080-h608-p-no-v0",
-      description: "High-performance LED surgical light system for optimal illumination during surgical procedures.",
+      name: "ECG Modules",
+      category: "Modules",
+      image: "https://lh3.googleusercontent.com/p/AF1QipOZ6SHhbS85Pk_nZ2c6JmIs-MnbSM7mNjot4goF=w768-h768-n-o-v1",
+      description: "Reliable ECG module solutions for integration with various monitoring systems.",
       features: [
-        "Shadow-free illumination",
-        "Adjustable color temperature",
-        "Long LED lifespan",
-        "Sterilizable handle",
-        "Low heat emission"
+        "3/5/12-lead options",
+        "Arrhythmia detection",
+        "ST analysis",
+        "Low noise signal",
+        "Compact form factor"
       ]
     }
   ];

@@ -35,7 +35,7 @@ const CTA = () => {
                 <MapPin className="mr-4 h-5 w-5 text-medical-200" />
                 <div>
                   <p className="font-medium">Visit Us</p>
-                  <p className="text-medical-100">2nd Floor, Office Complex, Green Valley Plaza, Jagriti Enclave, Delhi</p>
+                  <p className="text-medical-100">Plot No. 15, 2nd Floor, Office Complex, Green Valley Plaza, Pocket B, Jagriti Enclave, Delhi, 110091</p>
                 </div>
               </div>
             </div>

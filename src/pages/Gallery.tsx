@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -14,10 +15,11 @@ const Gallery = () => {
     { id: "sensors", name: "Sensors" }
   ];
   
+  // Updated working image URLs
   const galleryImages = [
     {
       id: 1,
-      src: "https://lh3.googleusercontent.com/p/AF1QipMTJ4VqCh-QmZC5xIqMxioWbCG4smDXQhHsLu_o=w1080-h608-p-no-v0",
+      src: "https://lh3.googleusercontent.com/p/AF1QipMVhF8lYZctRnMLzXkV8HdxboB-NGs2R_UAvmFK=w768-h768-n-o-v1",
       alt: "Patient Monitoring Equipment",
       category: "products",
       title: "Patient Monitors",
@@ -25,7 +27,7 @@ const Gallery = () => {
     },
     {
       id: 2,
-      src: "https://lh3.googleusercontent.com/p/AF1QipOxfX34L5RlhtjzmCu19LqAAgjUPr0NC2rl4Zue=w1080-h608-p-no-v0",
+      src: "https://lh3.googleusercontent.com/p/AF1QipOZ6SHhbS85Pk_nZ2c6JmIs-MnbSM7mNjot4goF=w768-h768-n-o-v1",
       alt: "NIBP Modules",
       category: "modules",
       title: "NIBP Modules",
@@ -33,7 +35,7 @@ const Gallery = () => {
     },
     {
       id: 3,
-      src: "https://lh3.googleusercontent.com/p/AF1QipO2_L5nrsCswRfW9Jw20TZjD93RuVxTxZmwu8hv=w1080-h608-p-no-v0",
+      src: "https://lh3.googleusercontent.com/p/AF1QipNpxhUmmbKKB5QR-A-f_nBD0lhjlhcWKXJeJFVS=w768-h768-n-o-v1",
       alt: "SpO2 Sensors",
       category: "sensors",
       title: "SpO2 Sensors",
@@ -41,7 +43,7 @@ const Gallery = () => {
     },
     {
       id: 4,
-      src: "https://lh3.googleusercontent.com/p/AF1QipNksJ0-QR3tILMUJSj_ExN2LfUZTqhbxtS8-LBJ=w1080-h608-p-no-v0",
+      src: "https://lh3.googleusercontent.com/p/AF1QipP0MLJscTFSizL5h7qEUXFwJohq8Pu9cBXzpaKa=w768-h768-n-o-v1",
       alt: "Medical Equipment Service",
       category: "products",
       title: "Service & Support",
