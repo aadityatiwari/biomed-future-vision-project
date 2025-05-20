@@ -15,11 +15,11 @@ const Gallery = () => {
     { id: "sensors", name: "Sensors" }
   ];
   
-  // Updated working image URLs
+  // Updated with reliable image URLs
   const galleryImages = [
     {
       id: 1,
-      src: "https://lh3.googleusercontent.com/p/AF1QipMVhF8lYZctRnMLzXkV8HdxboB-NGs2R_UAvmFK=w768-h768-n-o-v1",
+      src: "https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       alt: "Patient Monitoring Equipment",
       category: "products",
       title: "Patient Monitors",
@@ -27,7 +27,7 @@ const Gallery = () => {
     },
     {
       id: 2,
-      src: "https://lh3.googleusercontent.com/p/AF1QipOZ6SHhbS85Pk_nZ2c6JmIs-MnbSM7mNjot4goF=w768-h768-n-o-v1",
+      src: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       alt: "NIBP Modules",
       category: "modules",
       title: "NIBP Modules",
@@ -35,7 +35,7 @@ const Gallery = () => {
     },
     {
       id: 3,
-      src: "https://lh3.googleusercontent.com/p/AF1QipNpxhUmmbKKB5QR-A-f_nBD0lhjlhcWKXJeJFVS=w768-h768-n-o-v1",
+      src: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       alt: "SpO2 Sensors",
       category: "sensors",
       title: "SpO2 Sensors",
@@ -43,7 +43,7 @@ const Gallery = () => {
     },
     {
       id: 4,
-      src: "https://lh3.googleusercontent.com/p/AF1QipP0MLJscTFSizL5h7qEUXFwJohq8Pu9cBXzpaKa=w768-h768-n-o-v1",
+      src: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       alt: "Medical Equipment Service",
       category: "products",
       title: "Service & Support",

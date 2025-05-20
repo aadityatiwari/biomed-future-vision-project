@@ -19,7 +19,7 @@ const CTA = () => {
                 <Phone className="mr-4 h-5 w-5 text-medical-200" />
                 <div>
                   <p className="font-medium">Call Us</p>
-                  <p className="text-medical-100">+91 9717692952</p>
+                  <p className="text-medical-100">9643399281</p>
                 </div>
               </div>
 
@@ -27,7 +27,7 @@ const CTA = () => {
                 <Mail className="mr-4 h-5 w-5 text-medical-200" />
                 <div>
                   <p className="font-medium">Email Us</p>
-                  <p className="text-medical-100">info@bgmbiomedical.com</p>
+                  <p className="text-medical-100">bgmbiomedical@gmail.com</p>
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ const CTA = () => {
                 <MapPin className="mr-4 h-5 w-5 text-medical-200" />
                 <div>
                   <p className="font-medium">Visit Us</p>
-                  <p className="text-medical-100">Plot No. 15, 2nd Floor, Office Complex, Green Valley Plaza, Pocket B, Jagriti Enclave, Delhi, 110091</p>
+                  <p className="text-medical-100">G1, JR Complex, Jagat Puri Junction, Shahdara, Delhi - 110053</p>
                 </div>
               </div>
             </div>

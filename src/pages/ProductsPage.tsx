@@ -42,7 +42,7 @@ const ProductsPage = () => {
     {
       name: "VitalCare 3000",
       category: "Patient Monitoring",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMVhF8lYZctRnMLzXkV8HdxboB-NGs2R_UAvmFK=w768-h768-n-o-v1",
+      image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Advanced patient monitor with integrated vital signs monitoring capabilities including ECG, SpO2, NIBP, temperature and respiration.",
       features: [
         "12.1\" color TFT display",
@@ -55,7 +55,7 @@ const ProductsPage = () => {
     {
       name: "MediVent Plus",
       category: "Life Support",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNpxhUmmbKKB5QR-A-f_nBD0lhjlhcWKXJeJFVS=w768-h768-n-o-v1",
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "High-performance ventilator for critical care settings with advanced ventilation modes and comprehensive monitoring.",
       features: [
         "Invasive and non-invasive modes",
@@ -68,7 +68,7 @@ const ProductsPage = () => {
     {
       name: "NIBP Modules",
       category: "Modules",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOZ6SHhbS85Pk_nZ2c6JmIs-MnbSM7mNjot4goF=w768-h768-n-o-v1",
+      image: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Advanced non-invasive blood pressure monitoring modules for integration with patient monitoring systems.",
       features: [
         "High accuracy measurements",
@@ -81,7 +81,7 @@ const ProductsPage = () => {
     {
       name: "Service & Support",
       category: "Services",
-      image: "https://lh3.googleusercontent.com/p/AF1QipP0MLJscTFSizL5h7qEUXFwJohq8Pu9cBXzpaKa=w768-h768-n-o-v1",
+      image: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Expert technical support and maintenance services for all medical equipment and modules.",
       features: [
         "On-site service",
@@ -94,7 +94,7 @@ const ProductsPage = () => {
     {
       name: "SpO2 Sensors",
       category: "Sensors",
-      image: "https://lh3.googleusercontent.com/p/AF1QipNpxhUmmbKKB5QR-A-f_nBD0lhjlhcWKXJeJFVS=w768-h768-n-o-v1",
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "High-quality oxygen saturation sensors compatible with major monitoring systems.",
       features: [
         "High accuracy readings",
@@ -107,7 +107,7 @@ const ProductsPage = () => {
     {
       name: "ECG Modules",
       category: "Modules",
-      image: "https://lh3.googleusercontent.com/p/AF1QipOZ6SHhbS85Pk_nZ2c6JmIs-MnbSM7mNjot4goF=w768-h768-n-o-v1",
+      image: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Reliable ECG module solutions for integration with various monitoring systems.",
       features: [
         "3/5/12-lead options",
@@ -297,7 +297,7 @@ const ProductsPage = () => {
               
               <div className="md:w-1/2">
                 <img 
-                  src="https://lh3.googleusercontent.com/p/AF1QipNksJ0-QR3tILMUJSj_ExN2LfUZTqhbxtS8-LBJ=w1080-h608-p-no-v0" 
+                  src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
                   alt="Product Support" 
                   className="rounded-lg shadow-lg"
                 />

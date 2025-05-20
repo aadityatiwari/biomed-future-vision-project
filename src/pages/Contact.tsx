@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -37,8 +36,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
               <p className="text-gray-600 mb-4">Our team is available to assist you.</p>
-              <a href="tel:+919717692952" className="text-medical-600 font-semibold hover:text-medical-700 transition-colors">
-                +91 9717692952
+              <a href="tel:9643399281" className="text-medical-600 font-semibold hover:text-medical-700 transition-colors">
+                9643399281
               </a>
             </div>
             
@@ -49,8 +48,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-gray-600 mb-4">Send us an email with your inquiries.</p>
-              <a href="mailto:info@bgmbiomedical.com" className="text-medical-600 font-semibold hover:text-medical-700 transition-colors">
-                info@bgmbiomedical.com
+              <a href="mailto:bgmbiomedical@gmail.com" className="text-medical-600 font-semibold hover:text-medical-700 transition-colors">
+                bgmbiomedical@gmail.com
               </a>
             </div>
             
@@ -62,9 +61,8 @@ const Contact = () => {
               <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
               <p className="text-gray-600 mb-4">Our office location.</p>
               <address className="not-italic text-medical-600 font-semibold hover:text-medical-700 transition-colors">
-                Plot No. 15, 2nd Floor, Office Complex<br />
-                Green Valley Plaza, Pocket B, Jagriti Enclave<br />
-                Delhi, 110091
+                G1, JR Complex, Jagat Puri Junction<br />
+                Shahdara, Delhi - 110053
               </address>
             </div>
           </div>
@@ -145,7 +143,7 @@ const Contact = () => {
                 <h2 className="text-2xl font-bold mb-6">Our Location</h2>
                 <div className="relative h-[400px] rounded-xl overflow-hidden shadow-md">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.0731415806333!2d77.3208083!3d28.604096699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5156ac54eff%3A0xf5149d54f665dd9!2sGreen%20Valley%20Plaza%2C%20Jagriti%20Enclave%2C%20Kaushambi%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201010!5e0!3m2!1sen!2sin!4v1653857705217!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5454883173463!2d77.28989937525913!3d28.642913175696954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb3996f86df7%3A0xb7e7cbedd311b1c!2sJR%20Complex%2C%20Jagat%20Puri%20Junction%2C%20Vishwas%20Nagar%20Extension%2C%20Shahdara%2C%20Delhi%2C%20110053!5e0!3m2!1sen!2sin!4v1718584007307!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -163,7 +161,7 @@ const Contact = () => {
                   </p>
                   <div className="flex items-center text-medical-600">
                     <MapPin size={18} className="mr-2" />
-                    <span>Plot No. 15, 2nd Floor, Office Complex, Green Valley Plaza, Pocket B, Jagriti Enclave, Delhi, 110091</span>
+                    <span>G1, JR Complex, Jagat Puri Junction, Shahdara, Delhi - 110053</span>
                   </div>
                 </div>
               </div>
