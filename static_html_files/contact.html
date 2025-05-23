@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - BGM Biomedical</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <style>
+    :root {
+      --medical-50: #e6f0fa;
+      --medical-100: #bfdbfe;
+      --medical-600: #2563eb;
+      --medical-700: #1e3a8a;
+      --medical-500: #3b82f6;
+    }
+    .bg-medical-50 { background-color: var(--medical-50); }
+    .bg-medical-100 { background-color: var(--medical-100); }
+    .text-medical-600 { color: var(--medical-600); }
+    .text-medical-700 { color: var(--medical-700); }
+    .border-medical-500 { border-color: var(--medical-500); }
+    .focus\:ring-medical-500:focus { box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); }
+    .hover\:text-medical-700:hover { color: var(--medical-700); }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      background-color: var(--medical-600);
+      color: white;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+    .btn:hover { background-color: var(--medical-700); }
+    .btn-lg { padding: 1.5rem; font-size: 1.125rem; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <!-- Navbar -->
+  <header class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-4">
+      <nav class="flex justify-between items-center">
+        <div class="text-xl font-bold">BGM Biomedical</div>
+        <ul class="flex space-x-6">
+          <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+          <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+          <li><a href="products.html" class="hover:text-gray-300">Products</a></li>
+          <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-medical-50/50 via-white to-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="inline-block py-1 px-3 rounded-full bg-medical-100 text-medical-600 text-sm font-medium mb-4">
+          CONTACT US
+        </span>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Get in <span class="text-medical-600">Touch</span> With Us
+        </h1>
+        <p class="text-xl text-gray-600 mb-8">
+          Have questions about our products or services? Bubu's team is ready to assist you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Information -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow text-center">
+          <div class="bg-medical-50 text-medical-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <i data-feather="phone" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Call Us</h3>
+          <p class="text-gray-600 mb-4">Bubu's team is available to assist you.</p>
+          <a href="tel:9643399281" class="text-medical-600 font-semibold hover:text-medical-700 transition-colors">
+            9643399281
+          </a>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow text-center">
+          <div class="bg-medical-50 text-medical-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <i data-feather="mail" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Email Us</h3>
+          <p class="text-gray-600 mb-4">Send us an email with your inquiries.</p>
+          <a href="mailto:bubulovesdudu@gmail.com" class="text-medical-600 font-semibold hover:text-medical-700 transition-colors">
+            bubulovesdudu@gmail.com
+          </a>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-8 hover:shadow-md transition-shadow text-center">
+          <div class="bg-medical-50 text-medical-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <i data-feather="map-pin" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Visit Us</h3>
+          <p class="text-gray-600 mb-4">Our office location.</p>
+          <address class="not-italic text-medical-600 font-semibold hover:text-medical-700 transition-colors">
+            G1, JR Complex, Jagat Puri Junction<br>
+            Shahdara, Delhi - 110053
+          </address>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Map -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div class="bg-white rounded-xl shadow-md p-8">
+            <h2 class="text-2xl font-bold mb-6">Send Us a Message</h2>
+            <form class="space-y-6" action="https://formspree.io/f/your-form-id" method="POST">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
+                    required
+                  />
+                </div>
+              </div>
+              <div>
+                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Your Phone"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
+                />
+              </div>
+              <div>
+                <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
+                  required
+                />
+              </div>
+              <div>
+                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Your message here..."
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-medical-500 focus:border-medical-500"
+                  required
+                ></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-lg w-full">
+                  <i data-feather="send" class="w-4 h-4 mr-2"></i>
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold mb-6">Our Location</h2>
+            <div class="relative h-[400px] rounded-xl overflow-hidden shadow-md">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5454883173463!2d77.28989937525913!3d28.642913175696954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb3996f86df7%3A0xb7e7cbedd311b1c!2sJR%20Complex%2C%20Jagat%20Puri%20Junction%2C%20Vishwas%20Nagar%20Extension%2C%20Shahdara%2C%20Delhi%2C%20110053!5e0!3m2!1sen!2sin!4v1718584007307!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="BGM Biomedical Location"
+              ></iframe>
+            </div>
+            <div class="mt-8 bg-white rounded-xl p-6 shadow-sm">
+              <h3 class="text-xl font-semibold mb-3">BGM Biomedical Services Pvt. Ltd.</h3>
+              <p class="text-gray-600 mb-4">
+                Our office is located in Delhi. Feel free to visit us during business hours or contact us via phone or email.
+              </p>
+              <div class="flex items-center text-medical-600">
+                <i data-feather="map-pin" class="w-5 h-5 mr-2"></i>
+                <span>G1, JR Complex, Jagat Puri Junction, Shahdara, Delhi - 110053</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 mt-auto">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-lg font-semibold mb-4">BGM Biomedical</h3>
+          <p class="text-gray-400">Providing innovative biomedical solutions.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+            <li><a href="products.html" class="text-gray-400 hover:text-white">Products</a></li>
+            <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+          <p class="text-gray-400">G1, JR Complex, Jagat Puri Junction, Shahdara, Delhi - 110053</p>
+          <p class="text-gray-400">Email: bubulovesdudu@gmail.com</p>
+          <p class="text-gray-400">Phone: 9643399281</p>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-gray-400">
+        © 2025 BGM Biomedical Services Pvt. Ltd. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>feather.replace();</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - BGM Biomedical</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <style>
+    :root {
+      --medical-50: #e6f0fa;
+      --medical-100: #bfdbfe;
+      --medical-600: #2563eb;
+      --medical-700: #1e3a8a;
+      --medical-500: #3b82f6;
+    }
+    .bg-medical-50 { background-color: var(--medical-50); }
+    .bg-medical-100 { background-color: var(--medical-100); }
+    .text-medical-600 { color: var(--medical-600); }
+    .text-medical-700 { color: var(--medical-700); }
+    .border-medical-500 { border-color: var(--medical-500); }
+    .focus\:ring-medical-500:focus { box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); }
+    .hover\:text-medical-700:hover { color: var(--medical-700); }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      background-color: var(--medical-600);
+      color: white;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+    .btn:hover { background-color: var(--medical-700); }
+    .btn-lg { padding: 1.5rem; font-size: 1.125rem; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <!-- Navbar -->
+  <header class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-4">
+      <nav class="flex justify-between items-center">
+        <div class="text-xl font-bold">BGM Biomedical</div>
+        <ul class="flex space-x-6">
+          <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+          <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+          <li><a href="products.html" class="hover:text-gray-300">Products</a></li>
+          <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-16 bg-cover bg-center" style="background-image: url('[HOSTED_IMAGE_URL]/products-bg.jpg')">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 text-white">
+          Our <span class="text-medical-600">Products</span>
+        </h1>
+        <p class="text-xl text-gray-200 mb-8">
+          Explore our range of innovative biomedical solutions designed for excellence.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow">
+          <img src="[HOSTED_IMAGE_URL]/product1.jpg" alt="Product 1" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-xl font-semibold mb-2">Diagnostic Device</h3>
+          <p class="text-gray-600 mb-4">Advanced diagnostic tool for accurate results.</p>
+          <a href="contact.html" class="btn">Inquire Now</a>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow">
+          <img src="[HOSTED_IMAGE_URL]/product2.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-xl font-semibold mb-2">Medical Equipment</h3>
+          <p class="text-gray-600 mb-4">Reliable equipment for healthcare facilities.</p>
+          <a href="contact.html" class="btn">Inquire Now</a>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition-shadow">
+          <img src="[HOSTED_IMAGE_URL]/product3.jpg" alt="Product 3" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-xl font-semibold mb-2">Monitoring System</h3>
+          <p class="text-gray-600 mb-4">Real-time patient monitoring solutions.</p>
+          <a href="contact.html" class="btn">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 mt-auto">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-lg font-semibold mb-4">BGM Biomedical</h3>
+          <p class="text-gray-400">Providing innovative biomedical solutions.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+            <li><a href="products.html" class="text-gray-400 hover:text-white">Products</a></li>
+            <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+          <p class="text-gray-400">G1, JR Complex, Jagat Puri Junction, Shahdara, Delhi - 110053</p>
+          <p class="text-gray-400">Email: bubulovesdudu@gmail.com</p>
+          <p class="text-gray-400">Phone: 9643399281</p>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-gray-400">
+        © 2025 BGM Biomedical Services Pvt. Ltd. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>feather.replace();</script>
+</body>
+</html>
